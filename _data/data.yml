@@ -1,286 +1,146 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
+# ——— sidebar ———
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True
+  education: True
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: "आनंद प्रकाश वर्मा"
+  tagline: "वर्तमान प्रदेश अध्यक्ष – उत्तर प्रदेश किसान कांग्रेस मध्य जोन"
+  avatar: "profile.png"
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  # Contact & social
+  email: "anandprakashverma80@gmail.com"
+  phone: "9307258175, 6306104010"
+  timezone: "Asia/Kolkata"
+  citizenship: "Indian"
+  father: "श्री ओमप्रकाश वर्मा (भाई जी), पूर्व चेयरमैन नगर पालिका शिवराजपुर"
+  telegram: "inc_apverma"
+  twitter: "inc_apverma"
+  instagram: "inc_apverma"
+  facebook: "https://www.facebook.com/anand.prakashverma.7906"
+  pdf: "https://drive.google.com/drive/folders/1qkNYRP59x-20VV_wTj9Qg1XCwEDqsdc5?usp=sharing"
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
-
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
-
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
-
+# ——— पेशेवर परिचय ———
 career-profile:
-  title: Career Profile
+  title: "पेशेवर परिचय"
+  father: "श्री ओमप्रकाश वर्मा (भाई जी), पूर्व चेयरमैन नगर पालिका शिवराजपुर"
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
-education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - आनंद प्रकाश वर्मा (जन्म: 01 जून 1972)
+    - बीएनएसडी कॉलेज से स्नातक
+    - 30+ वर्षों का राजनीतिक अनुभव
+    - वर्तमान प्रदेश अध्यक्ष – उत्तर प्रदेश किसान कांग्रेस मध्य जोन
+    - जिला उपाध्यक्ष एवं संगठन प्रभारी, जिला कांग्रेस समिति, कानपुर नगर
 
+
+# ——— राजनीतिक पद ———
 experiences:
-  title: Experiences
+  title: "राजनीतिक पद"
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: "ब्लॉक अध्यक्ष, युवा कांग्रेस, शिवराजपुर"
+      time: "09 January 1993"
+      company: "युवा कांग्रेस, शिवराजपुर"
+      details: |
+        ब्लॉक अध्यक्ष के रूप में नियुक्ति।
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - role: "महासचिव, जिला युवा कांग्रेस, कानपुर देहात"
+      time: "16 January 1996"
+      company: "जिला युवा कांग्रेस, कानपुर देहात"
+      details: |
+        प्रथम महासचिव के रूप में कार्यभार ग्रहण।
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - role: "उपाध्यक्ष, जिला युवा कांग्रेस, कानपुर देहात"
+      time: "01 February 2004"
+      company: "जिला युवा कांग्रेस, कानपुर देहात"
+      details: |
+        युवा कांग्रेस इकाई का समन्वय।
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: "संस्थापक सदस्य, काव्य मनस्वी, काशी हिंदी साहित्य सेवा समिति"
+      time: "16 March 2004"
+      company: "काशी हिंदी साहित्य सेवा समिति"
+      details: |
+        साहित्य सेवा समिति की स्थापना में योगदान।
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: "वरिष्ठ उपाध्यक्ष, जिला युवा कांग्रेस, कानपुर देहात"
+      time: "27 January 2005"
+      company: "जिला युवा कांग्रेस, कानपुर देहात"
+      details: |
+        वरिष्ठ उपाध्यक्ष पद पर कार्य।
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: "सदस्य, जिला पंचायत चुनाव तैयारी समिति, कानपुर देहात"
+      time: "16 July 2005"
+      company: "जिला पंचायत चुनाव तैयारी समिति"
+      details: |
+        पंचायत चुनाव की तैयारी समिति में सदस्य।
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - role: "संरक्षक, गंगा प्रदूषण मुक्त अभियान"
+      time: "21 February 2006"
+      company: "गंगा प्रदूषण मुक्त अभियान"
+      details: |
+        अभियान के संरक्षक के रूप में मार्गदर्शन।
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: "संगठन मंत्री, जिला कांग्रेस कमेटी, कानपुर देहात"
+      time: "14 February 2007"
+      company: "जिला कांग्रेस कमेटी, कानपुर देहात"
+      details: |
+        जिला स्तर पर संगठन मंत्री।
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: "महामंत्री, जिला कांग्रेस कमेटी, कानपुर नगर (ग्रामीण)"
+      time: "24 February 2009"
+      company: "जिला कांग्रेस कमेटी, कानपुर नगर (ग्रामीण)"
+      details: |
+        महामंत्री के रूप में नियुक्ति।
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - role: "ब्लॉक अध्यक्ष, कांग्रेस कमेटी, शिवराजपुर, कानपुर नगर (ग्रामीण)"
+      time: "03 December 2009"
+      company: "कांग्रेस कमेटी, शिवराजपुर"
+      details: |
+        स्थानीय ब्लॉक अध्यक्ष पद।
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: "प्रभार, बिठूर विधानसभा (2009 Lok Sabha Election)"
+      time: "2009 (Lok Sabha Election)"
+      company: "युवा कांग्रेस संगठन"
+      details: |
+        प्रत्याशी श्री राजाराम पाल के लिए कार्य किया; लगभग 6000 मतों से जीत दिलाई।
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    - role: "AEO (Assembly Enrollment Officer), बिठूर विधानसभा, युवा कांग्रेस संगठन चुनाव"
+      time: "11 November 2009"
+      company: "युवा कांग्रेस"
+      details: |
+        विधानसभा नामांकन अधिकारी के रूप में कार्य।
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    - role: "महासचिव, जिला कांग्रेस कमेटी, कानपुर नगर (ग्रामीण)"
+      time: "01 June 2013"
+      company: "जिला कांग्रेस कमेटी, कानपुर नगर (ग्रामीण)"
+      details: |
+        महासचिव के रूप में नियुक्ति।
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+    - role: "महासचिव (पुनः नियुक्त), जिला कांग्रेस कमेटी, कानपुर नगर (ग्रामीण)"
+      time: "05 June 2015"
+      company: "जिला कांग्रेस कमेटी, कानपुर नगर (ग्रामीण)"
+      details: |
+        पुनः महासचिव के रूप में कार्यभार ग्रहण।
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+    - role: "प्रभार, बिल्हौर विधानसभा"
+      time: "16 June 2016"
+      company: "कांग्रेस चुनाव समिति"
+      details: |
+        बिल्हौर विधानसभा में प्रभारी।
 
-      He is a great employee!
+    - role: "प्रभार, घाटमपुर विधानसभा"
+      time: "10 March 2018"
+      company: "कांग्रेस चुनाव समिति"
+      details: |
+        घाटमपुर विधानसभा में प्रभारी।
 
-skills:
-  title: Skills &amp; Proficiency
+    - role: "स्थायी सदस्य एवं परामर्शदाता, चुनाव कोर कमेटी, अकबरपुर लोकसभा"
+      time: "28 February 2019"
+      company: "जिला कांग्रेस समिति, अकबरपुर"
+      details: |
+        लोकसभा उम्मीदवार समर्थन एवं रणनीति पर परामर्शदाता।
 
-  toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - role: "जिला उपाध्यक्ष एवं संगठन प्रभारी, जिला कांग्रेस कमेटी, कानपुर ग्रामीण"
+      time: "2021 – Present"
+      company: "जिला कांग्रेस कमेटी, कानपुर ग्रामीण"
+      details: |
+        पुनः नियुक्त; संगठन एवं सदस्यता अभियान का नेतृत्व।

@@ -1,0 +1,18 @@
+// congress skin for Online-CV
+$primary-color:        #5ecf2e; // saffron
+$secondary-color:      #138808; // green
+$accent-color:         #0A3070; // deep blue for headings
+
+// text colours (required by default.scss)
+$text-color:           #333333;
+$text-color-secondary: $secondary-color;
+$text-grey:            #6c757d;
+$smoky-white:          #f9f9f9;
+
+// theme colour
+$theme-color:          $primary-color;
+
+// icon colours (required by default.scss)
+$heart:                $accent-color;  // <— add this!
+
+@import "default";
